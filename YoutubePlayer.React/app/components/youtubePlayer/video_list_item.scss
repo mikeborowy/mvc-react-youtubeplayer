@@ -1,0 +1,17 @@
+﻿
+.list-group-item {
+    cursor: pointer;
+
+    &:hover {
+        background-color: #eee;
+    }
+
+    .media-left {
+        float:left;
+        padding-right:5px;
+    }
+
+    .media-right {
+        margin-left:5px;
+    }
+}
