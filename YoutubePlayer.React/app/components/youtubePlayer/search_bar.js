@@ -20,7 +20,7 @@ class SearchBar extends React.Component {
     onInputChange(evt) {
 
         this.setState({ st_term: evt.target.value });
-        this.props.onSearchTermChange(evt.target.value); // --> up way data binding
+        this.props.onSearchTermChange(evt.target.value); // -->callback fn for up way data binding
     }
 
     render() {
