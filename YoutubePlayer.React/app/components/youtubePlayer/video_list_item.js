@@ -15,10 +15,16 @@ const VideoListItem = (props) => {
     let title = dataVideo.snippet.title;
     let imgURL = dataVideo.snippet.thumbnails.default.url;
 
+    function videoSelectCallbackFn(evt) {
+
+        console.log(evt);
+        onVideoSelect(dataVideo);
+    }
+
     //return HTML
     return (
         <li className="list-group-item"
-            onClick={ () => onVideoSelect(dataVideo) }>
+            onClick={(evt) => { videoSelectCallbackFn(evt) } }>
             <div className="video-item media">
                 <div className="media-left">
                     <img className="media-object" src={imgURL} />
@@ -29,7 +35,7 @@ const VideoListItem = (props) => {
                     </div>
                 </div>
             </div>
-        </li>
+        </li>//() => onVideoSelect(dataVideo);
     );
 }
 

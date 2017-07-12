@@ -23,9 +23,9 @@ class App extends React.Component {
 
         //component functions bindings
         this.selectVideoFn = this.selectVideoFn.bind(this);
-        this.videoSearchFn = this.videoSearchFn.bind(this);
+        this.ytSearchCallFn = this.ytSearchCallFn.bind(this);
 
-        this.videoSearchFn('terminator');
+        this.ytSearchCallFn('terminator');
     }
 
 
@@ -33,34 +33,34 @@ class App extends React.Component {
         this.setState({ st_selectedVideo: selectedVideo })
     }
 
-    videoSearchFn(term) {
+    ytSearchCallFn(term) {
 
         //yt ajax call
-        YTSearch({ key: API_KEY, term: term }, (videos) => {
+         YTSearch({ key: API_KEY, term: term }, (videos) => {
 
-            if (DEBUG_MODE) console.log(this.state.st_videos);
+                if (DEBUG_MODE) console.log(this.state.st_videos);
 
-            this.setState({
-                st_videos: videos,
-                st_selectedVideo: videos[0]
-            });
-        })
+                this.setState({
+                    st_videos: videos,
+                    st_selectedVideo: videos[0]
+                });
+            })
     }
 
     render() {
 
-        const videoSearch = _.debounce( term => this.videoSearchFn(term), 300);
+        const videoSearchFn = _.debounce(term => { this.ytSearchCallFn(term) }, 300);
 
         return (
             <div>
                 <SearchBar
-                    onSearchTermChange={ videoSearch } />
+                    onSearchTermChange={ videoSearchFn} />
                 <VideoDetails
                     dataSelectedVideo={this.state.st_selectedVideo} />
                 <VideosList
                     dataVideos={this.state.st_videos}
-                    onVideoSelect={ st_selectedVideo => this.selectVideoFn(st_selectedVideo) } /> 
-            </div>//onVideoSelect={ st_selectedVideo => this.selectVideoFn(st_selectedVideo)  --> down way data binding
+                    onVideoSelect={this.selectVideoFn} />
+            </div>//onVideoSelect={ selectedVideo => this.selectVideoFn(selectedVideo)  --> down way data binding
         )
     }
 };
