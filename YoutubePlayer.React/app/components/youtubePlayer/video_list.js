@@ -21,7 +21,7 @@ const VideosList = (props) => {
                     key={videoDataItem.etag}
                     dataId={i}
                     dataVideo={videoDataItem}
-                    onVideoSelect={ onVideoSelect } // --> downway data binding
+                    onVideoSelect={onVideoSelect} // --> downway data binding
                 />
             })}
 
