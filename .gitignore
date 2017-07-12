@@ -135,6 +135,7 @@ DocProject/Help/*.hhp
 DocProject/Help/Html2
 DocProject/Help/html
 
+
 # Click-Once directory
 publish/
 
@@ -259,52 +260,7 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
-/YoutubePlayer.React/Scripts/8c3e1f64929628b33c8c.hot-update.json
-/YoutubePlayer.React/Scripts/8bb1094485ebfbe66bb0.hot-update.json
-/YoutubePlayer.React/Scripts/883688983f6734649311.hot-update.json
-/YoutubePlayer.React/Scripts/828e26f42273aabb339d.hot-update.json
-/YoutubePlayer.React/Scripts/45700488166ae0dfa089.hot-update.json
-/YoutubePlayer.React/Scripts/3d92c47ef2c4eb3ba895.hot-update.json
-/YoutubePlayer.React/Scripts/32ac8abee2b556b1103e.hot-update.json
-/YoutubePlayer.React/Scripts/2ea857155e04a395fd72.hot-update.json
-/YoutubePlayer.React/Scripts/2e87f0074b8ea813fa6f.hot-update.json
-/YoutubePlayer.React/Scripts/291a806997c9fd4f7a9f.hot-update.json
-/YoutubePlayer.React/Scripts/26552667bff04fdb7f08.hot-update.json
-/YoutubePlayer.React/Scripts/219e72f8455bd7a1d571.hot-update.json
-/YoutubePlayer.React/Scripts/1ba52755b4083399e52d.hot-update.json
-/YoutubePlayer.React/Scripts/120079ad09054bdbcf12.hot-update.json
-/YoutubePlayer.React/Scripts/05ea9ceca93c64061f01.hot-update.json
-/YoutubePlayer.React/Scripts/0318049e42696e59588a.hot-update.json
-/YoutubePlayer.React/Scripts/0.fb508aa4b07cd904722f.hot-update.js.map
-/YoutubePlayer.React/Scripts/0.fb508aa4b07cd904722f.hot-update.js
-/YoutubePlayer.React/Scripts/0.e80f209a0c34c0e922ea.hot-update.js.map
-/YoutubePlayer.React/Scripts/0.e80f209a0c34c0e922ea.hot-update.js
-/YoutubePlayer.React/Scripts/0.e19d657ccbc4f9716f53.hot-update.js.map
-/YoutubePlayer.React/Scripts/0.e19d657ccbc4f9716f53.hot-update.js
-/YoutubePlayer.React/Scripts/0.e17ef504a0f3bb9fd344.hot-update.js.map
-/YoutubePlayer.React/Scripts/0.e17ef504a0f3bb9fd344.hot-update.js
-/YoutubePlayer.React/Scripts/0.883688983f6734649311.hot-update.js.map
-/YoutubePlayer.React/Scripts/0.883688983f6734649311.hot-update.js
-/YoutubePlayer.React/Scripts/0.45700488166ae0dfa089.hot-update.js.map
-/YoutubePlayer.React/Scripts/0.45700488166ae0dfa089.hot-update.js
-/YoutubePlayer.React/Scripts/0.3d92c47ef2c4eb3ba895.hot-update.js.map
-/YoutubePlayer.React/Scripts/0.3d92c47ef2c4eb3ba895.hot-update.js
-/YoutubePlayer.React/Scripts/0.32ac8abee2b556b1103e.hot-update.js.map
-/YoutubePlayer.React/Scripts/0.32ac8abee2b556b1103e.hot-update.js
-/YoutubePlayer.React/Scripts/0.2ea857155e04a395fd72.hot-update.js.map
-/YoutubePlayer.React/Scripts/0.2ea857155e04a395fd72.hot-update.js
-/YoutubePlayer.React/Scripts/0.2e87f0074b8ea813fa6f.hot-update.js.map
-/YoutubePlayer.React/Scripts/0.2e87f0074b8ea813fa6f.hot-update.js
-/YoutubePlayer.React/Scripts/0.26552667bff04fdb7f08.hot-update.js.map
-/YoutubePlayer.React/Scripts/0.26552667bff04fdb7f08.hot-update.js
-/YoutubePlayer.React/Scripts/0.219e72f8455bd7a1d571.hot-update.js.map
-/YoutubePlayer.React/Scripts/0.219e72f8455bd7a1d571.hot-update.js
-/YoutubePlayer.React/Scripts/0.1ba52755b4083399e52d.hot-update.js.map
-/YoutubePlayer.React/Scripts/0.1ba52755b4083399e52d.hot-update.js
-/YoutubePlayer.React/Scripts/0.05ea9ceca93c64061f01.hot-update.js.map
-/YoutubePlayer.React/Scripts/0.05ea9ceca93c64061f01.hot-update.js
-/YoutubePlayer.React/Scripts/fb508aa4b07cd904722f.hot-update.json
-/YoutubePlayer.React/Scripts/f47551e2af438339c896.hot-update.json
-/YoutubePlayer.React/Scripts/e80f209a0c34c0e922ea.hot-update.json
-/YoutubePlayer.React/Scripts/e19d657ccbc4f9716f53.hot-update.json
-/YoutubePlayer.React/Scripts/e17ef504a0f3bb9fd344.hot-update.json
+/YoutubePlayer.React/Scripts/*.hot-update.json
+/YoutubePlayer.React/Scripts/*.hot-update.js.map
+/YoutubePlayer.React/Scripts/*.hot-update.json
+

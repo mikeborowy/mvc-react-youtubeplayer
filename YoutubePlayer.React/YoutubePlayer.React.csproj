@@ -186,6 +186,7 @@
   <ItemGroup>
     <Content Include="app\assets\world.jpg" />
     <Content Include="app\components\helloWorld\HelloWorld.js" />
+    <Content Include="app\components\youtubePlayer\index.js" />
     <Content Include="app\components\youtubePlayer\search_bar.js" />
     <Content Include="app\components\youtubePlayer\video_details.js" />
     <Content Include="app\components\youtubePlayer\video_list.js" />
